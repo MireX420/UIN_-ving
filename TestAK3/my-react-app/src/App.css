@@ -31,7 +31,7 @@ body {
    flex-grow: 1;
 }
 
-#navList ul li button {
+#navList ul li  {
     padding: 2rem;
     width: 100%;
     background-color: var(--darkblue);
@@ -42,15 +42,22 @@ body {
     font-weight: 900;
     border: 0.4rem solid --white;
 }
-#navList ul li button:hover {
+#navList ul li:hover {
     background-color: var(--white);
     color: var(--darkblue);
 }
-#navList ul li button.active {
+#navList ul li.active {
     background-color: var(--white);
     color: var(--darkblue);
 }
-
+#navList ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+#navList ul li a:hover {
+    color: var(--darkblue);
+    text-decoration: none;
+}
 main {
     width: 100%;
     height: 35rem;
